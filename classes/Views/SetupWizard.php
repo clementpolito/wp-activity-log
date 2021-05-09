@@ -412,7 +412,7 @@ final class WSAL_Views_SetupWizard {
 		<p><?php
 		printf(
 			/* translators: 1 - an opening link tag, 2 - a closing link tag. */
-			esc_html__( 'You have reached an invaild step - %1$sreturn to the start of the wizard%2$s.', 'wp-security-audit-log' ),
+			esc_html__( 'You have reached an invalid step - %1$sreturn to the start of the wizard%2$s.', 'wp-security-audit-log' ),
 			'<a href="' . esc_url( $this->get_welcome_step() ) . '">',
 			'</a>'
 		);
